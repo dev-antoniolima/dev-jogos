@@ -76,22 +76,35 @@ public class main {
 		
 		//Operadores Lógicos//
 		
-		int vida_1 = 100;
-		int vida_2 = 100;
-		int vida_3 = 200;
-		int vida_final = vida_1 + vida_2 + vida_3;
+		/*
+		 * int vida_1 = 100; int vida_2 = 100; int vida_3 = 200; int vida_final = vida_1
+		 * + vida_2 + vida_3;
+		 * 
+		 * int vida_final2 = ((vida_1 + vida_2) / 2 * 2);
+		 * System.out.println(vida_final2);
+		 * 
+		 * String nome = "Antonio"; boolean terGato = true;
+		 * 
+		 * if ((nome == "Antonio" || nome == "Simba") && terGato) {
+		 * System.out.println("Uma das condições é verdadeira e tem gato");
+		 * 
+		 * }
+		 */
 		
-		int vida_final2 = ((vida_1 + vida_2) / 2 * 2);
-		System.out.println(vida_final2);
-    	
-		String nome = "Antonio";
-		boolean terGato = true;
-		 
-		if ((nome == "Antonio" || nome == "Simba") && terGato) {
-			System.out.println("Uma das condições é verdadeira e tem gato");
-        	
-		}
-		
-	}
-}
+	int contador = 0;
 	
+	/*
+	 * while(contador <= 10) { System.out.println("Conte: "+contador); contador++; }
+	 */
+	/*
+	 * for(int i = 0; i<=10; i++) { System.out.println("Conte: "+i);
+	 * 
+	 * }
+	 */
+		
+	do {
+		System.out.println(contador++);
+	} while (contador < 3);
+	
+ }
+}
