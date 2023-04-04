@@ -36,36 +36,45 @@ public class main {
 		
 		// Condicionais //
 		
-		int vida = 100;
-		if (vida == 100) {
-			vida+=100;
-			System.out.println("Minha vida é igual a 100");
-		}
-		else {
-			System.out.println("Minha vida não é igual a 100");
-		}
-	
-     
-	String nome = "Guilherme";
-	if(nome == "Guilherme") {
-		System.out.println("Meu nome é: "+nome);
-	}
-		else if(nome == "Joao") {
+		/*
+		 * int vida = 100; if (vida == 100) { vida+=100;
+		 * System.out.println("Minha vida é igual a 100"); } else {
+		 * System.out.println("Minha vida não é igual a 100"); }
+		 * 
+		 * 
+		 * String nome = "Guilherme"; if(nome == "Guilherme") {
+		 * System.out.println("Meu nome é: "+nome); } else if(nome == "Joao") {
+		 * 
+		 * } else if (nome == "Felipe") {
+		 * 
+		 * }
+		 * 
+		 * if(nome != "joao") { System.out.println("O nome é diferente de João"); }
+		 * 
+		 * boolean var = true; if(var) System.out.println("Verdadeiro"); else {
+		 * System.out.println("Falso"); }
+		 */
 		
-	} 	else if (nome == "Felipe") {
-
-	}
-	
-	if(nome != "joao") {
-		System.out.println("O nome é diferente de João");
-	}
-	
-	boolean var = true;
-	if(var)
-		System.out.println("Verdadeiro");
-	else {
-		System.out.println("Falso");
-	}
+		// Switch e Case //
+		
+		int vida = 100;
+		
+        switch(vida) {
+        case 90:
+        	System.out.println("Quero que meu personagem corra mais rápido");
+        	
+        	break;
+        	
+        case 30:
+        	System.out.println("Minha vida é igual a 30");
+        	
+        	break;
+        	
+        	default:
+        		System.out.println("Nenhuma condição bateu");
+        		
+            	break;
+        }
 	}
 }
 	
