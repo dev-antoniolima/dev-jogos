@@ -57,24 +57,41 @@ public class main {
 		
 		// Switch e Case //
 		
-		int vida = 100;
+		/*
+		 * int vida = 100;
+		 * 
+		 * switch(vida) { case 90:
+		 * System.out.println("Quero que meu personagem corra mais rápido");
+		 * 
+		 * break;
+		 * 
+		 * case 30: System.out.println("Minha vida é igual a 30");
+		 * 
+		 * break;
+		 * 
+		 * default: System.out.println("Nenhuma condição bateu");
+		 * 
+		 * break; }
+		 */
 		
-        switch(vida) {
-        case 90:
-        	System.out.println("Quero que meu personagem corra mais rápido");
+		//Operadores Lógicos//
+		
+		int vida_1 = 100;
+		int vida_2 = 100;
+		int vida_3 = 200;
+		int vida_final = vida_1 + vida_2 + vida_3;
+		
+		int vida_final2 = ((vida_1 + vida_2) / 2 * 2);
+		System.out.println(vida_final2);
+    	
+		String nome = "Antonio";
+		boolean terGato = true;
+		 
+		if ((nome == "Antonio" || nome == "Simba") && terGato) {
+			System.out.println("Uma das condições é verdadeira e tem gato");
         	
-        	break;
-        	
-        case 30:
-        	System.out.println("Minha vida é igual a 30");
-        	
-        	break;
-        	
-        	default:
-        		System.out.println("Nenhuma condição bateu");
-        		
-            	break;
-        }
+		}
+		
 	}
 }
 	
