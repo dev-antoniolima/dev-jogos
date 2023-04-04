@@ -25,15 +25,47 @@ public class main {
 		 */
 		
 		// Array Normal
-		String[] nome = new String[5];
-		nome[0] = "Guilherme";
-		nome[1] = "João";
+		/*
+		 * String[] nome = new String[5]; nome[0] = "Guilherme"; nome[1] = "João";
+		 * 
+		 * // Array Multidimensional
+		 * 
+		 * String[][] var2 = new String[5][5]; var2[0][0] = "Felipe";
+		 * System.out.println(var2[0][0]);
+		 */
 		
-		// Array Multidimensional
+		// Condicionais //
 		
-		String[][] var2 = new String[5][5];
-		var2[0][0] = "Felipe";
-		System.out.println(var2[0][0]);
+		int vida = 100;
+		if (vida == 100) {
+			vida+=100;
+			System.out.println("Minha vida é igual a 100");
+		}
+		else {
+			System.out.println("Minha vida não é igual a 100");
+		}
+	
+     
+	String nome = "Guilherme";
+	if(nome == "Guilherme") {
+		System.out.println("Meu nome é: "+nome);
 	}
+		else if(nome == "Joao") {
+		
+	} 	else if (nome == "Felipe") {
 
+	}
+	
+	if(nome != "joao") {
+		System.out.println("O nome é diferente de João");
+	}
+	
+	boolean var = true;
+	if(var)
+		System.out.println("Verdadeiro");
+	else {
+		System.out.println("Falso");
+	}
+	}
 }
+	
