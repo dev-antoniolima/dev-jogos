@@ -1,7 +1,7 @@
 # dev-jogos
 Repositório destinado a prática de desenvolvimento de jogos em Java.
-<p align="center" width=250 height=250>
-<img src="/img/danki.jpeg"
+<p align="center">
+<img width=250 height=250 src="/img/danki.jpeg"
 <p>
 
 <p align="Left">
