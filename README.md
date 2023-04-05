@@ -5,7 +5,7 @@ Repositório destinado a prática de desenvolvimento de jogos em Java.
 <p>
 
 <p align="center">
-<ul>
+<ul align="center">
 <li>✔ 01 - Introdução ao curso</li>
 <li>✔ 02 - Configurando ambiente para programar</li>
 <li>✔ 03 - Algoritmos</li>
