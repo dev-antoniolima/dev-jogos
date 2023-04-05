@@ -4,7 +4,7 @@ Repositório destinado a prática de desenvolvimento de jogos em Java.
 <img width=700 height=350 src="/img/danki.jpeg"
 <p>
 
-<p align="center">
+<p>
 <ul align="center">
 <li>✔ 01 - Introdução ao curso</li>
 <li>✔ 02 - Configurando ambiente para programar</li>
