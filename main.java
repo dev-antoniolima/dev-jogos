@@ -102,9 +102,8 @@ public class main {
 	 * }
 	 */
 		
-	do {
-		System.out.println(contador++);
-	} while (contador < 3);
-	
+	/*
+	 * do { System.out.println(contador++); } while (contador < 3);
+	 */
  }
 }
