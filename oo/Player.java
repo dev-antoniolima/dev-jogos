@@ -1,9 +1,12 @@
 package oo;
 
 public class Player {
+	
+	public int vidaInicial, tempo;
 
-		public void nascer() {
-			System.out.println("Jogador Iniciado");
+		public Player(int vidaInicial, int tempo) {
+			this.vidaInicial = vidaInicial;
+			System.out.println(vidaInicial);
 		}
 	}
 
