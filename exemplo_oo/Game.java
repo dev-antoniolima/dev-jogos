@@ -6,9 +6,24 @@ public class Game {
 	private Enemy enemy;
 	
 	public Game() {
-		player = new Player();
-		enemy = new Enemy();
+		if(player == null) {
+			System.out.println("O player não foi inicializado");
+			player = new Tipo01();
+		}
 		
+			if(player instanceof Player) {
+			System.out.println("O player foi inicializado com sucesso e faz referência a classe Player");
+		}
+			
+			if(player instanceof Tipo01) {
+				System.out.println("");
+			}
+			
+			else if (player instanceof Player) {
+				
+			}
+		
+			enemy = new Enemy();
 	}
 	
 	public Player getPlayer() {
