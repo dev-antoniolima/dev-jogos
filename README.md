@@ -11,7 +11,7 @@ Repositório destinado a prática de desenvolvimento de jogos em Java.
 <li>✔ 03 - Algoritmos</li>
 <li>✔ 04 - Lógica de Programação</li>
 <li>✔ 05 - Programa de Leitura</li>
-<li>06 - Orientação a objetos com java</li>
+<li>✔ 06 - Orientação a objetos com java</li>
 <li>07 - Entendendo a lógica de programação de games</li>
 <li>08 - Gráficos com java</li>
 <ul>
