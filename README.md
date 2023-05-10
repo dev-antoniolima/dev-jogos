@@ -3,8 +3,7 @@
 Repositório destinado a prática de desenvolvimento de jogos em Java.
 
 <p align="center">
-<img width=700 height=350 src="/img/danki.jpeg"
-<p>
+<img width=700 height=350 src="/img/danki.jpeg">
 
   <span>✔ 01 - Introdução ao curso</span>
   <br>
