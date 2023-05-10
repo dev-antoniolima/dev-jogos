@@ -6,15 +6,13 @@ Repositório destinado a prática de desenvolvimento de jogos em Java.
 <img width=700 height=350 src="/img/danki.jpeg"
 <p>
 
-<p>
-<ul align="center">
-<li>✔ 01 - Introdução ao curso</li>
-<li>✔ 02 - Configurando ambiente para programar</li>
-<li>✔ 03 - Algoritmos</li>
-<li>✔ 04 - Lógica de Programação</li>
-<li>✔ 05 - Programa de Leitura</li>
-<li>✔ 06 - Orientação a objetos com java</li>
-<li>✔ 07 - Entendendo a lógica de programação de games</li>
-<li>08 - Gráficos com java</li>
-<ul>
+  <span>✔ 01 - Introdução ao curso</span>
+  <span>✔ 02 - Configurando ambiente para programar</span>
+  <span>✔ 03 - Algoritmos</span>
+  <span>✔ 04 - Lógica de Programação</span>
+  <span>✔ 05 - Programa de Leitura</span>
+  <span>✔ 06 - Orientação a objetos com java</span>
+  <span>✔ 07 - Entendendo a lógica de programação de games</span>
+  <span>08 - Gráficos com java</span>
+
 <p>
