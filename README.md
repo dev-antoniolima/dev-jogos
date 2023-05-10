@@ -1,7 +1,7 @@
 # dev-jogos
 
 Repositório destinado a prática de desenvolvimento de jogos em Java.
-.span {
+span {
 display: flex;
 justify-content: center;
 }
