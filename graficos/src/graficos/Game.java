@@ -64,12 +64,12 @@ public class Game extends Canvas implements Runnable {
 	
 	public void run() {
 		
-		long lastTime = System.nanoTime();
+		long lastTime = System.nanoTime(); // Retorna o valor em milissegundo desde a última execução.
 		double amountOfCicles = 60.0;
-		double nanosecs = 1000000000 / amountOfCicles;
+		double nanosecs = 1000000000 / amountOfCicles; // Converte para decimal
 		double delta = 0;
 		int frames = 0;
-		double timer = System.currentTimeMillis();
+		double timer = System.currentTimeMillis(); // Tempo de Processamento da tarefa (ciclo).
 
 		
 		while(isRunning) {
@@ -85,7 +85,7 @@ public class Game extends Canvas implements Runnable {
 				}
 				
 			if(System.currentTimeMillis() - timer >= 1000) {
-				System.out.println("FPS: " +frames);
+				System.out.println("FPS: " +frames); // Mostra o FPS a cada 1 segundo.
 				frames = 0;
 				timer+=1000;
 				
