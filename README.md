@@ -22,4 +22,4 @@ Repositório destinado a prática de desenvolvimento de jogos em Java.
     <br>
   <span>08 - Gráficos com java</span>
 
-<p>
+</p>
